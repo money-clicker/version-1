@@ -4,6 +4,7 @@ updating = 1;
 function clickBtn() {
   score = score + updating;
   document.getElementsByTagName("h1")[0].firstChild.data = score + "$";
+  new Audio('img/jg-032316-sfx-elevator-button.mp3').play(); return false;
 }
 function update() {
   score = score - 100;
