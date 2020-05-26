@@ -38,7 +38,7 @@ function auto() {
 }
 function if1 () {
   if (score < -100) {
-    document.write('<title>Game over</title><link rel="stylesheet" href="./style.css"><link rel="icon" href="img/mouse.png"><script src="script.js"></script>Вы проиграли, так-как вы превысили лимит кредита<a href="#"><button>Начать заново</button></a>');
+    document.write('<title>Game over</title><link rel="stylesheet" href="./style.css"><link rel="icon" href="img/mouse.png">Вы проиграли, так-как вы превысили лимит кредита<a href="/index.html"><button>Начать заново</button></a>');
   }
 }
 function plusauto () {
