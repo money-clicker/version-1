@@ -38,7 +38,7 @@ function auto() {
 }
 function if1 () {
   if (score < -100) {
-    document.write("Вы проиграли, так-как вы превысили лимит кредита");
+    document.write("<title>Game over</title><link rel="stylesheet" href="./style.css"><link rel="icon" href="img/mouse.png"><script src="script.js"></script>Вы проиграли, так-как вы превысили лимит кредита<a href="#"><button>Начать заново</button></a>");
   }
 }
 function plusauto () {
@@ -58,4 +58,5 @@ function pashalka () {
 function reboot () {
   alert("Ваш уровень прокачки " + updating + ". Ваш баланс " + score + " .");
 }
+
 
