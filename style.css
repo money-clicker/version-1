@@ -68,4 +68,7 @@ h1, h2 {
   h1 img {
     width: 80px;
   }
+  a {
+    font-size: 50px;
+  }
 }
